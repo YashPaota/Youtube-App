@@ -10,9 +10,9 @@ const Sidebar = () => {
         <div className="p-5 shadow-lg w-48">
         
             <ul>
-                <li>Home</li>
-                <li>Shorts</li>
-                <li>Subscriptions</li>
+                <li className="font-semibold">Home</li>
+                <li className="font-semibold">Shorts</li>
+                <li className="font-semibold">Subscriptions</li>
                 
             </ul>
             <h1 className="font-bold pt-5 ">You  </h1>

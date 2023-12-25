@@ -1,5 +1,6 @@
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../utils/appSlice";
+import { HAMBURGER_ICON, PROFILE_ICON, YOUTUBE_ICON } from "../utils/constants";
 
 const Head = () => {
     const dispatch = useDispatch();
@@ -13,12 +14,12 @@ const Head = () => {
         <img
           onClick={() => toggleMenuHandler()}
           className="h-8 mt-2 cursor-pointer"
-          src="https://cdn.icon-icons.com/icons2/1875/PNG/512/hamburgermenu_120234.png"
+          src={HAMBURGER_ICON}          
           alt="Menu-logo"
         />
         <img
           className="h-12 w-28 mx-2"
-          src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg"
+          src={YOUTUBE_ICON}
           alt="Youtube-logo"
         />
       </div>
@@ -29,7 +30,7 @@ const Head = () => {
       <div className="col-span-1">
         <img
           className="h-8 mt-2"
-          src="https://toppng.com/uploads/preview/circled-user-icon-user-pro-icon-11553397069rpnu1bqqup.png"
+          src={PROFILE_ICON}
           alt="user-icon-logo"
         />
       </div>
