@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
 
@@ -7,10 +8,10 @@ const Sidebar = () => {
     if(!isMenuOpen) return null;    //This is called as early return method
     // we can also do or use ternary operator.
     return (
-        <div className="p-5 shadow-lg w-48">
+        <div className="p-5 shadow-lg w-2/12">
         
             <ul>
-                <li className="font-semibold">Home</li>
+                <li className="font-semibold cursor-pointer"><Link to="/">Home</Link></li>
                 <li className="font-semibold">Shorts</li>
                 <li className="font-semibold">Subscriptions</li>
                 
