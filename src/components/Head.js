@@ -56,7 +56,7 @@ const Head = () => {
           alt="Menu-logo"
         />
 
-        <img className="h-12 w-28 mx-2" src={YOUTUBE_ICON} alt="Youtube-logo" />
+        <img className="h-12 w-28 mx-2 cursor-pointer" src={YOUTUBE_ICON} alt="Youtube-logo" />
       </div>
 
       <div className="col-span-10 ml-[10rem] mt-2">
