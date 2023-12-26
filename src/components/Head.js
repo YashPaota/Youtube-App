@@ -58,10 +58,10 @@ const Head = () => {
         <img className="h-12 w-28 mx-2" src={YOUTUBE_ICON} alt="Youtube-logo" />
       </div>
 
-      <div className="col-span-10  mt-2">
+      <div className="col-span-10 ml-[10rem] mt-2">
         <div>
           <input
-            className="px-5 w-1/2 border border-gray-400 p-1 rounded-l-full "
+            className="px-5 w-1/2  border border-gray-400 p-1 rounded-l-full "
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
