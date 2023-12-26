@@ -9,6 +9,7 @@ import VideosIcon from "../utils/images/videos.svg"
 import HistoryIcon from "../utils/images/history.svg"
 import LibraryIcon from "../utils/images/library.svg"
 import SubscribeIcon from "../utils/images/subscribe.svg"
+import YoutubeStudioIcon from "../utils/images/Youtube-Studio.png";
 
 
 export const HAMBURGER_ICON = "https://cdn.icon-icons.com/icons2/1875/PNG/512/hamburgermenu_120234.png";
@@ -37,11 +38,11 @@ export const SIDEBAR_OPTIONS = [
     {
         icon: SubscribeIcon,
         name: "Subscriptions"
-    },
-    {
-        icon: LibraryIcon,
-        name: "Library"
-    },
+    },];
+
+
+export const YOU =[
+
     {
         icon: HistoryIcon,
         name: "History"
@@ -55,13 +56,34 @@ export const SIDEBAR_OPTIONS = [
         name: "Watch Later"
     },
     {
-        icon: LikedIcon,
-        name: "Liked Videos"
-    },
-    {
         icon: ShowMoreIcon,
         name: "Show More"
     },
+];
+
+
+
+export const YOUTUBE_PRODUCTS = [
+    {
+        icon :"https://img.freepik.com/premium-vector/free-vector-youtube-icon-logo-social-media-logo_901408-454.jpg?",
+        name:"Youtube Premium"
+    },
+    {
+        icon : YoutubeStudioIcon,
+        name:"Youtube Studio"
+    },
+    {
+        icon :"https://upload.wikimedia.org/wikipedia/commons/6/6a/Youtube_Music_icon.svg",
+        name:"Youtube Music"
+    },
+    {
+        icon :"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-kids-icon.png",
+        name:"Youtube Kids"
+    },
+]
+
+
+export const BOTTOM_SECTION = [
     {
         icon: SettingsIcon,
         name: "Settings"
@@ -74,7 +96,71 @@ export const SIDEBAR_OPTIONS = [
         icon: FeedbackIcon,
         name: "Send Feeback"
     },
-]
+    
+];
+
+export const EXPLORE = [
+{
+    icon: LibraryIcon,
+    name:"Trending"
+},
+{
+    icon: LibraryIcon,
+    name:"Shopping"
+},
+{
+    icon: LibraryIcon,
+    name:"Music"
+},
+{
+    icon: LibraryIcon,
+    name:"Movies"
+},
+{
+    icon: LibraryIcon,
+    name:"Live"
+},
+{
+    icon: LibraryIcon,
+    name:"Gaming"
+},
+{
+    icon: LibraryIcon,
+    name:"News"
+},
+{
+    icon: LibraryIcon,
+    name:"Sports"
+},
+{
+    icon: LibraryIcon,
+    name:"Learning"
+},
+{
+    icon: LibraryIcon,
+    name:"Fashion & Beauty"
+},
+{
+    icon: LibraryIcon,
+    name:"Podcasts"
+},
+{
+    icon: LibraryIcon,
+    name:"Trending"
+},
+];
+    // {
+    //     icon: LibraryIcon,
+    //     name: "Library"
+    // },
+    
+    // {
+    //     icon: LikedIcon,
+    //     name: "Liked Videos"
+    // },
+    
+    
+
 
 
 export const list = [
