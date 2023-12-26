@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { closeMenu } from "../utils/appSlice";
 import { useSearchParams } from "react-router-dom";
 import VideoInfo from "./VideoInfo";
+import CommentsSection from "./CommentsSection";
 
 const WatchPage = () => {
   const [setParams] = useSearchParams();
@@ -24,6 +25,7 @@ const WatchPage = () => {
         allowFullScreen
       ></iframe>
       <VideoInfo />
+      <CommentsSection />
     </div>
   );
 };
