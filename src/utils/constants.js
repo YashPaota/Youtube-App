@@ -91,3 +91,163 @@ export const list = [
   "React",
   "JavaScript",
 ];
+
+export const commentArray = [
+    {
+        name:"Yash Paota",
+        text:"Thats a good one!!",
+        replies:[
+        {
+            name:"Mohit Goel",
+            text:"Thats a good one!!",
+            replies:[{
+                name:"Mohit Goel",
+                text:"Thats a good one!!",
+                replies:[{
+                    name:"Mohit Goel",
+                    text:"Thats a good one!!",
+                    replies:[],
+                },
+                
+                {
+                    name:"Harshit Agarwal",
+                    text:"Thats a good one!!",
+                    replies:[],
+                },],
+            },
+            
+            {
+                name:"Harshit Agarwal",
+                text:"Thats a good one!!",
+                replies:[],
+            },],
+        },
+        
+        {
+            name:"Harshit Agarwal",
+            text:"Thats a good one!!",
+            replies:[],
+        },
+        
+        {
+            name:"Harsh Jangid",
+            text:"Thats a good one!!",
+            replies:[],
+        },
+        
+        {
+            name:"Aman Grover",
+            text:"Thats a good one!!",
+            replies:[],
+        },
+
+        ],
+    },
+    
+    {
+        name:"Mohit Goel",
+        text:"Thats a good one!!",
+        replies:[],
+    },
+    
+    {
+        name:"Harshit Agarwal",
+        text:"Thats a good one!!",
+        replies:[
+            {
+                name:"Mohit Goel",
+                text:"Thats a good one!!",
+                replies:[],
+            },
+            
+            {
+                name:"Harshit Agarwal",
+                text:"Thats a good one!!",
+                replies:[],
+            },
+            
+            {
+                name:"Harsh Jangid",
+                text:"Thats a good one!!",
+                replies:[],
+            },
+            
+            {
+                name:"Aman Grover",
+                text:"Thats a good one!!",
+                replies:[],
+            },
+        ],
+    },
+    
+    {
+        name:"Harsh Jangid",
+        text:"Thats a good one!!",
+        replies:[],
+    },
+    
+    {
+        name:"Aman Grover",
+        text:"Thats a good one!!",
+        replies:[],
+    },
+    
+    {
+        name:"Ayush Paota",
+        text:"Thats a good one!!",
+        replies:[{
+            name:"Mohit Goel",
+            text:"Thats a good one!!",
+            replies:[],
+        },
+        
+        {
+            name:"Harshit Agarwal",
+            text:"Thats a good one!!",
+            replies:[],
+        },
+        
+        {
+            name:"Harsh Jangid",
+            text:"Thats a good one!!",
+            replies:[],
+        },
+        
+        {
+            name:"Aman Grover",
+            text:"Thats a good one!!",
+            replies:[],
+        },],
+    },
+    
+    {
+        name:"RAj Kumar Yadav",
+        text:"Thats a good one!!",
+        replies:[],
+    },
+    
+    {
+        name:"Rohit",
+        text:"Thats a good one!!",
+        replies:[],
+    },
+    
+    {
+        name:"Sunny",
+        text:"Thats a good one!!",
+        replies:[],
+    },
+    
+    {
+        name:"Tamannah Bhatia",
+        text:"Thats a good one!!",
+        replies:[],
+    },
+    
+    {
+        name:"Shruti Kakkar",
+        text:"Thats a good one!!",
+        replies:[],
+    },
+    
+]
