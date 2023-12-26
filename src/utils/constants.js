@@ -23,6 +23,8 @@ export const YoUTUBE_API = "https://youtube.googleapis.com/youtube/v3/videos?par
 
 export const YOTUBE_SEARCH_API = "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
+export const VIDEO_INFO_URL = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&key=" + GOOGLE_API_KEY;
+
 export const SIDEBAR_OPTIONS = [
     {
         icon: HomeIcon,

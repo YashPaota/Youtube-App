@@ -8,6 +8,7 @@ import {
   YOUTUBE_ICON,
 } from "../utils/constants";
 import { cacheResults } from "../utils/searchSlice";
+import { Link } from "react-router-dom";
 
 const Head = () => {
   const dispatch = useDispatch();
@@ -30,7 +31,7 @@ const Head = () => {
   }, [searchQuery]);
 
   const getSearchSuggestions = async () => {
-    console.log(searchQuery);
+    // console.log(searchQuery);
     const data = await fetch(YOTUBE_SEARCH_API + searchQuery);
     const json = await data.json();
     // console.log(json[1]);
