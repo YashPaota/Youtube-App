@@ -47,11 +47,11 @@ const Head = () => {
     dispatch(toggleMenu());
   };
   return (
-    <div className="grid grid-flow-col p-2 m-1 shadow-lg">
+    <div className="grid grid-flow-col p-2 mb-1 shadow-lg bg-white w-full fixed z-10">
       <div className="flex col-span-1">
         <img
           onClick={() => toggleMenuHandler()}
-          className="h-8 mt-2 cursor-pointer"
+          className="h-8 mt-2 cursor-pointer hover:bg-slate-300 rounded-full"
           src={HAMBURGER_ICON}
           alt="Menu-logo"
         />
