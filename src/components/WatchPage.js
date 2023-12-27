@@ -15,7 +15,7 @@ const WatchPage = () => {
     dispatch(closeMenu());
   }, [videoID]);
   return (
-    <div className="px-5 w-full">
+    <div className="px-5 w-full mt-10">
     <div className="flex ">
      <div>
       <iframe
