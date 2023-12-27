@@ -14,3 +14,8 @@ To set up and run this application, please follow these steps:
 5. Open your browser and access the application at http://localhost:3000.  
 
 ## Features
+* Watch Page for single Videos.
+* Search Functionality with Debouncing Optimization Technique.
+* Nested comments.
+* Live Chat Feature.
+* API Polling
