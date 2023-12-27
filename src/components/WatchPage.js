@@ -4,6 +4,7 @@ import { closeMenu } from "../utils/appSlice";
 import { useSearchParams } from "react-router-dom";
 import VideoInfo from "./VideoInfo";
 import CommentsSection from "./CommentsSection";
+import LiveChat from "./LiveChat";
 
 const WatchPage = () => {
   const [setParams] = useSearchParams();
@@ -14,9 +15,11 @@ const WatchPage = () => {
     dispatch(closeMenu());
   }, [videoID]);
   return (
-    <div className="px-5">
+    <div className="px-5 w-full">
+    <div className="flex ">
+     <div>
       <iframe
-        width="1000"
+        width="950"
         height="500"
         src={"https://www.youtube.com/embed/" + videoID }
         title="YouTube video player"
@@ -24,6 +27,11 @@ const WatchPage = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe>
+      </div>
+      <div className="w-full">
+         <LiveChat />
+      </div>
+      </div>
       <VideoInfo />
       <CommentsSection />
     </div>
