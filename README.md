@@ -2,7 +2,7 @@
 * Crafted with ReactJS, Tailwind CSS, and Redux Toolkit, delivers an immersive YouTube-esque experience, offering seamless video streaming and robust state management for a captivating user interface.
 
 ## Live Link
-Namaste Youtube :- https://youtubenamaste.netlify.app/
+Namaste Youtube :- https://youtube-alike-ui.netlify.app/
 
 ## Setup and Running the Application
 To set up and run this application, please follow these steps:
