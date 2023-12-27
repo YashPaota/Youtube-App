@@ -6,7 +6,7 @@ import { commentArray } from "../utils/constants";
 
 const CommentsSection = () => {
   return (
-    <div className="m-5 p-2">
+    <div className="m-5 p-2 w-[900px]">
       <h1 className="font-bold text-2xl">Comments:</h1>
       <CommentsList comments={commentArray} />
     </div>

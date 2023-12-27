@@ -20,7 +20,7 @@ const VideoInfo = () => {
     console.log(json.items[0]);
   };
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       <h1 className="m-2 font-bold w-full text-xl">
         {videoData?.snippet?.title}
       </h1>
@@ -65,7 +65,7 @@ const VideoInfo = () => {
 
       
 
-      <div className="flex flex-col bg-gray-100 rounded-lg p-4 mt-3 w-[1000px]">
+      <div className="flex flex-col bg-gray-100 rounded-lg p-4 mt-3 w-[900px]">
         <div className="flex font-semibold">
           <h2>{videoData?.statistics?.viewCount / 100}K views</h2>
           <h2 className="ml-4">#hashtags #trending #india</h2>
