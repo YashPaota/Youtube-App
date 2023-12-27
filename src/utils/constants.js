@@ -18,13 +18,13 @@ export const YOUTUBE_ICON = "https://www.logo.wine/a/logo/YouTube/YouTube-Logo.w
 
 export const PROFILE_ICON = "https://toppng.com/uploads/preview/circled-user-icon-user-pro-icon-11553397069rpnu1bqqup.png";
  
-const GOOGLE_API_KEY = "AIzaSyDdy0KuZC2YIJxLkPEN8VkTqqXJ_6VoS9M";
+// const GOOGLE_API_KEY = "AIzaSyDdy0KuZC2YIJxLkPEN8VkTqqXJ_6VoS9M";
 
-export const YoUTUBE_API = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" + GOOGLE_API_KEY;
+export const YoUTUBE_API = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" + process.env.REACT_APP_GOOGLE_API_KEY;
 
 export const YOTUBE_SEARCH_API = "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
-export const VIDEO_INFO_URL = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&key=" + GOOGLE_API_KEY;
+export const VIDEO_INFO_URL = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&key=" + process.env.REACT_APP_GOOGLE_API_KEY;
 
 export const SIDEBAR_OPTIONS = [
     {
