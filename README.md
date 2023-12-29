@@ -14,8 +14,8 @@ To set up and run this application, please follow these steps:
 5. Open your browser and access the application at http://localhost:3000.  
 
 ## Features
-* Watch Page for single Videos.
-* Search Functionality with Debouncing Optimization Technique.
-* Nested comments.
-* Live Chat Feature.
-* API Polling
+* Dedicated watch page with details and comments.
+* Implemented debouncing to refine dynamic search functionality.
+* Optimized performance by caching search results via Redux.
+* Live Chat Simulation feature enabling real-time interaction using API Polling.
+* Multi-level Commenting enabling engaging threaded discussions and replies.
